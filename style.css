@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    height: 100px;
+    background-color: #F0F0F0;
+    box-shadow: black 0px 0px 5px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav ul a{
+    text-decoration: none;
+    color: #909090;
+    margin: 20px;
+    padding: 20px;
+}
+nav ul a li{
+    list-style: none;
+    font-weight: 500;
+
+}
